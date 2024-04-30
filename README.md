@@ -1,5 +1,5 @@
 Instalación y configuración:
-  - Instalar node.js: 
+  - Instalar node.js: https://nodejs.org/en
   - Posicionarse dentro del proyecto(carpeta)
   - Ejecutar en la terminal: npm install
  
