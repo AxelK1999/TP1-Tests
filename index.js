@@ -21,8 +21,8 @@ async function inicioSesiónCVUGD(){
   try {
 
     let result = await driver.get('https://campusvirtual.ugd.edu.ar/moodle/login/index.php');
-    await driver.findElement(By.id('username')).sendKeys('67112');
-    await driver.findElement(By.id('password')).sendKeys('axel1530139', Key.RETURN);
+    await driver.findElement(By.id('username')).sendKeys('...');
+    await driver.findElement(By.id('password')).sendKeys('...', Key.RETURN);
     //key.RETURN -> Al ingresar los datos ejecuta el enter(submit).
     //await driver.findElement(By.id('password')).click(); 
 
